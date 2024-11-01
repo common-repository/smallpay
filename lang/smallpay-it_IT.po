@@ -1,0 +1,440 @@
+# Translation of Plugins - SmallPay - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - SmallPay - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-17 15:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: it-IT\n"
+"Project-Id-Version: Plugins - SmallPay - Stable (latest release)\n"
+"Language-Team: Italiano"
+
+#: templates/form.php:9
+msgid ""
+") and insert your credit card! You will be charged on the first day of each "
+"month until the due date."
+msgstr ""
+") e inserisci la tua carta di credito! Le rate ti saranno addebitate il "
+"primo giorno di ogni mese fino alla scadenza."
+
+#: includes/class-wc-gateway-smallpay.php:282
+msgid "All Payment Methods"
+msgstr "Tutti i metodi di pagamento"
+
+#: includes/class-wc-gateway-smallpay.php:21
+#| msgid "Allow your customers to pay in instalments"
+msgid "Allow your customers to pay in installments"
+msgstr "Consenti ai tuoi clienti di effettuare pagamenti rateali"
+
+#: templates/details_payment_xpay.php:17 templates/wc_smallpay_myorder.php:15
+msgid "Amount"
+msgstr "Importo"
+
+#: templates/form.php:24
+msgid "Choose the number of installments"
+msgstr "Scegli il numero di rate"
+
+#: includes/class-wc-gateway-smallpay.php:167
+msgid "Completed inst. (%s)"
+msgid_plural "Completed inst. (%s)"
+msgstr[0] "Pagamento rateale completato (%s)"
+msgstr[1] "Pag. Rateali completati (%s)"
+
+#: includes/class-wc-gateway-smallpay.php:475
+msgid "Completed transactions"
+msgstr "Transazioni completate"
+
+#: templates/form.php:17
+msgid "contract terms and conditions"
+msgstr "condizioni contrattuali"
+
+#: includes/class-wc-gateway-smallpay.php:195 
+#: includes/class-wc-gateway-smallpay.php:349
+msgid "Credit card"
+msgstr "Carta di credito"
+
+#: templates/details_payment_xpay.php:62 templates/wc_smallpay_myorder.php:57
+msgid "Download your contract"
+msgstr "Scarica il tuo contratto"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:94
+msgid "Enable second price range"
+msgstr "Abilita la seconda fascia di prezzo"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:49
+#| msgid "Enable SmallPay Payment Module."
+msgid "Enable SmallPay payment module."
+msgstr "Abilita il modulo di pagamento SmallPay"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:109
+msgid "Enable third price range"
+msgstr "Abilita la terza fascia di prezzo"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:47
+msgid "Enable/Disable"
+msgstr "Attiva/Disattiva"
+
+#: includes/class-wc-gateway-smallpay-api.php:216
+msgid "Error while retrieving installments info from Smallpay"
+msgstr "Errore durante il recupero delle informazioni sulle rate da Smallpay"
+
+#: templates/details_payment_xpay.php:28 templates/wc_smallpay_myorder.php:26 
+#: templates/installments_plan.php:14
+msgid "First payment"
+msgstr "Primo pagamento"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:449
+msgid "first price range"
+msgstr "prima fascia di prezzi"
+
+#: templates/details_payment_xpay.php:62 templates/wc_smallpay_myorder.php:57
+#| msgid "fore the installment plan by SmallPay"
+msgid "for the installment plan with SmallPay"
+msgstr "per il piano rateale con SmallPay"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:39
+#| msgid ""
+#| "From this page it is possible to insert the general configurations of the "
+#| "module. We remind you to enable the individual products you wish to offer "
+#| "with installment payment directly from the product sheet."
+msgid ""
+"From this page you can enter the general configurations of the module. We "
+"remind you to enable the individual products you wish to offer with "
+"installment payment directly from the product tab."
+msgstr ""
+"Da questa pagina è possibile inserire le configurazioni generali del modulo. "
+"Ti ricordiamo di abilitare i singoli prodotti che vorrai offrire con "
+"pagamento rateale direttamente dalla scheda prodotto."
+
+#. Author URI of the plugin
+msgid "https://www.smallpay.it"
+msgstr "https://www.smallpay.it"
+
+#: templates/form.php:17
+msgid "I confirm that I have read and accepted the"
+msgstr "Confermo di aver letto e accetto le"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:232
+msgid "Installment categories"
+msgstr "Categorie rateizzabili"
+
+#: templates/installments_plan.php:9
+msgid "Installment n°"
+msgstr "Rata n°"
+
+#: templates/installments_plan.php:11
+msgid "Installment of"
+msgstr "Rate del"
+
+#: includes/class-wc-gateway-smallpay.php:525
+msgid "INSTALLMENT PAYMENT AVAILABLE"
+msgstr "PRODOTTO RATEIZZABILE"
+
+#: includes/class-wc-gateway-smallpay.php:162 
+#: includes/class-wc-gateway-smallpay.php:185
+msgid "Installment payment completed"
+msgstr "Pagamento rateale completato"
+
+#: includes/class-wc-gateway-smallpay.php:153 
+#: includes/class-wc-gateway-smallpay.php:184
+msgid "Installment payment in progress"
+msgstr "Pag. rateale in corso"
+
+#: includes/class-wc-gateway-smallpay.php:158
+#, php-format
+msgid "Installment payment in progress (%s)"
+msgid_plural "Installment payment in progress (%s)"
+msgstr[0] "Pagamento rateale in corso (%s)"
+msgstr[1] "Pagamento rateale in corso (%s)"
+
+#: templates/installments_plan.php:10
+msgid "Installment price"
+msgstr "Prezzo rata"
+
+#: includes/class-wc-gateway-smallpay.php:317
+msgid "Installments"
+msgstr "Rate"
+
+#: includes/class-wc-gateway-smallpay.php:503 
+#: includes/class-wc-gateway-smallpay.php:529
+msgid "installments"
+msgstr "rate"
+
+#: templates/details_payment_xpay.php:11 templates/wc_smallpay_myorder.php:9
+msgid "Installments Information"
+msgstr "Informazioni sul piano rateale"
+
+#: includes/class-wc-gateway-smallpay.php:802
+msgid "Invalid hashPass"
+msgstr "HashPass non valido"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:437
+msgid "Invalid max amount."
+msgstr "Importo massimo non valido."
+
+#: includes/class-wc-gateway-smallpay-configuration.php:422
+msgid "Invalid min amount."
+msgstr "Importo minimo non valido."
+
+#: includes/class-wc-gateway-smallpay-configuration.php:431
+#| msgid "Invalid min amount. It must be greater than"
+msgid "Invalid min amount. Must be greater than"
+msgstr "Importo minimo non valido. Deve essere maggiore di"
+
+#: includes/class-wc-gateway-smallpay.php:318
+msgid "Last Installment"
+msgstr "Ultima rata"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:259
+msgid "Maximum number of installments"
+msgstr "Numero massimo di rate"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:375
+msgid "Maximum number of installments selected invalid."
+msgstr "Numero massimo di rate selezionato non valido."
+
+#: includes/class-wc-gateway-smallpay-configuration.php:53
+msgid "Merchant ID"
+msgstr "ID Merchant"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:251
+msgid "Minimum number of installments"
+msgstr "Numero minimo di rate"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:374
+msgid "Minimum number of installments selected invalid."
+msgstr "Numero minimo di rate selezionato non valido."
+
+#: includes/class-wc-gateway-smallpay.php:815
+msgid "Missing installments info"
+msgstr "Info sulle rate mancanti"
+
+#: templates/details_payment_xpay.php:16 templates/wc_smallpay_myorder.php:14
+msgid "Nr."
+msgstr "Nr."
+
+#: includes/class-wc-gateway-smallpay.php:606
+msgid "Number of installments selected invalid"
+msgstr "Numero di rate selezionate non valido"
+
+#. Description of the plugin
+msgid "Official SmallPay plugin."
+msgstr "Plugin ufficiale SmallPay"
+
+#: includes/class-wc-gateway-smallpay.php:473
+msgid "Open transactions"
+msgstr "Transazioni aperte"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:118
+msgid "Order creation status"
+msgstr "Stato creazione ordine"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:120
+msgid "Order status at creation"
+msgstr "Stato dell'ordine al momento della creazione"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:127
+msgid "Order status completed"
+msgstr "Stato ordine completato"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:129
+msgid "Order status upon completion of installment payments"
+msgstr "Stato dell'ordine al momento del completamento dei pagamenti rateali"
+
+#: templates/details_payment_xpay.php:20 templates/wc_smallpay_myorder.php:18
+msgid "Paid"
+msgstr "Pagato"
+
+#: templates/form.php:45
+#| msgid "Credit card via SmallPay"
+msgid "Pay by credit card via SmallPay"
+msgstr "Paga con carta di credito tramite SmallPay"
+
+#: templates/details_payment_xpay.php:19 templates/wc_smallpay_myorder.php:17
+msgid "Payment Date"
+msgstr "Data di Pagamento"
+
+#: includes/class-wc-gateway-smallpay-admin-order-details.php:35
+msgid "Payment details"
+msgstr "Dettagli di pagamento"
+
+#: includes/class-wc-gateway-smallpay.php:193 
+#: includes/class-wc-gateway-smallpay.php:347
+msgid "Payment in installments"
+msgstr "Pagamento rateale"
+
+#: includes/class-wc-gateway-smallpay.php:316
+msgid "Payment Method"
+msgstr "Metodo di pagamento"
+
+#: includes/class-wc-gateway-smallpay-api.php:143
+msgid "Please verify Smallpay credentials"
+msgstr "Verificare le credenziali di Smallpay"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:239
+msgid "Price range from - €"
+msgstr "Fascia di prezzo da - €"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:245
+msgid "Price range to - €"
+msgstr "Fascia di prezzo a - €"
+
+#: includes/class-wc-gateway-smallpay.php:502
+msgid "product available in"
+msgstr "Prodotto acquistabile in"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:55 
+#: includes/class-wc-gateway-smallpay-configuration.php:60 
+#: includes/class-wc-gateway-smallpay-configuration.php:65
+msgid "Provided by SmallPay"
+msgstr "Fornito da SmallPay"
+
+#: includes/class-wc-gateway-smallpay.php:792
+msgid "Request format not valid"
+msgstr "Formato richiesta non valido"
+
+#: templates/details_payment_xpay.php:18 templates/wc_smallpay_myorder.php:16
+msgid "Scheduled date"
+msgstr "Data programmata"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:450
+msgid "second price range"
+msgstr "seconda fascia di prezzi"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:235
+msgid "Select all categories on which you want to enable installment payments"
+msgstr ""
+"Seleziona tutte le categorie su cui vuoi abilitare il pagamento rateale"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:263
+#| msgid ""
+#| "Select the maximum number of settable installments for products in cart."
+msgid "Select the maximum number of installments for products in the cart."
+msgstr "Seleziona il massimo numero di rate per i prodotti nel carrello."
+
+#: includes/class-wc-gateway-smallpay-configuration.php:255
+#| msgid ""
+#| "Select the minimum number of settable installments for products in cart."
+msgid "Select the minimum number of installments for products in the cart."
+msgstr "Seleziona il minimo numero di rate per i prodotti nel carrello."
+
+#: includes/class-wc-gateway-smallpay-configuration.php:58
+msgid "Service ID"
+msgstr "ID Servizio"
+
+#: smallpay.php:122
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: templates/form.php:29
+msgid "Single solution"
+msgstr "Unica soluzione"
+
+#. Name of the plugin
+#: includes/class-wc-gateway-smallpay.php:20 
+#: includes/class-wc-gateway-smallpay.php:64
+msgid "SmallPay"
+msgstr "SmallPay"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:43
+msgid "SmallPay Gateway configurations"
+msgstr "Configurazioni Gateway SmallPay"
+
+#: smallpay.php:87
+msgid "SmallPay is inactive because WooCommerce is not installed."
+msgstr "SmallPay è inattivo perche WooCommerce non è installato"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:68
+#| msgid "Smallpay Options"
+msgid "Smallpay options"
+msgstr "Opzioni Smallpay"
+
+#. Author of the plugin
+msgid "SmallPay Srl"
+msgstr "SmallPay Srl"
+
+#: templates/form.php:9
+#| msgid "Install the amount, choose the number of installments (from"
+msgid "Split the payment amount, choose the number of installments (from"
+msgstr "Rateizza l'importo, scegli il numero di rate (da"
+
+#: includes/class-wc-gateway-smallpay.php:401
+msgid "Status of installment transactions"
+msgstr "Stato delle transazioni rateali"
+
+#: includes/class-wc-gateway-smallpay-api.php:192
+#| msgid ""
+#| "Thank you for shopping with us. However, the transaction has been declined."
+msgid ""
+"Thank you for your purchase. However, the transaction has been declined."
+msgstr "Grazie per l'acquisto. Tuttavia, la transazione è stata rifiutata."
+
+#: includes/class-wc-gateway-smallpay.php:741 
+#: includes/class-wc-gateway-smallpay.php:827
+msgid "The first payment wasn't made or the transaction was unsuccessful"
+msgstr ""
+"Il primo pagamento non è stato effettuato o la transazione non è andata a "
+"buon fine"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:247
+msgid ""
+"The maximum value of products for which installment payment can be made."
+msgstr ""
+"L'importo massimo dei prodotti per cui è possibile effettuare il pagamento "
+"rateale"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:241
+msgid ""
+"The minimum value of products for which installment payment can be made."
+msgstr ""
+"L'importo minimo dei prodotti per cui è possibile effettuare il pagamento "
+"rateale"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:451
+msgid "third price range"
+msgstr "terza fascia di prezzi"
+
+#: templates/form.php:9
+msgid "to"
+msgstr "a"
+
+#: templates/installments_plan.php:32
+msgid "Total"
+msgstr "Totale"
+
+#: includes/class-wc-gateway-smallpay.php:474
+msgid "Transactions with issues"
+msgstr "Transazioni con problemi"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:63
+msgid "Unique ID"
+msgstr "ID Unico"
+
+#: includes/class-wc-gateway-smallpay-configuration.php:70
+msgid ""
+"Using this configurator you can set up categories of installment products "
+"with their price ranges and number of installments"
+msgstr ""
+"Usando questo configuratore puoi impostare categorie di prodotti "
+"rateizzabili con relative fasce di prezzo e numero di rate"
+
+#: includes/class-wc-gateway-smallpay.php:529
+#| msgid "you can pay this products in"
+msgid "you can pay this product in"
+msgstr "Potrai pagare questo prodotto in"
+
+#: templates/form.php:51
+#| msgid "you have chosen to make the payment in a single solution of €"
+msgid "You chose to make the payment in a single solution of €"
+msgstr "Hai scelto di pagare in un unica soluzione di €"
+
+#: includes/class-wc-gateway-smallpay.php:67
+msgid "You will be able to pay for your order in installments"
+msgstr "Potrai pagare il tuo ordine in modo rateale"
+
+#: templates/installments_plan.php:6
+msgid "Your installment plan will be as follows:"
+msgstr "Il tuo piano rateale sarà il seguente:"

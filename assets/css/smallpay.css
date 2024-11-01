@@ -1,0 +1,118 @@
+﻿/**
+ * Plugin Name: SmallPay
+ * Plugin URI:
+ * Description: Official SmallPay plugin.
+ * Version: 2.0.3
+ * Author: Nexi SpA
+ * Author URI: SmallPay Srl
+ * Text Domain: smallpay
+ * Domain Path: /lang
+ *
+ * Copyright: © 2017-2018, Nexi SpA
+ * License: GNU General Public License v3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+#sp-order-details h2 {
+    margin: 0;
+    font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px #fff;
+    padding: 0;
+}
+
+#sp-order-details .order_data_column_container {
+    clear: both;
+    display: flex;
+}
+
+#sp-order-details p {
+    color: #777;
+}
+
+#payment .payment_methods label img:where([src*="smallpay"]) {
+    width: 60px;
+    max-height: 25px;
+    transform: scale(1.2);
+    margin-left: 20px;
+}
+
+table.woocommerce-checkout-review-order-table.smallpay-table .product-name.smallpay-installment,
+table.woocommerce-checkout-review-order-table.smallpay-table .product-name.smallpay-date,
+table.woocommerce-checkout-review-order-table.smallpay-table .product-total.smallpay-amount,
+table.woocommerce-checkout-review-order-table.smallpay-table .product-name.smallpay-total {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    display: table-cell;
+}
+
+table.woocommerce-checkout-review-order-table.smallpay-table .product-name.smallpay-installment {
+    width: 40%;
+}
+
+table.woocommerce-checkout-review-order-table.smallpay-table .product-name.smallpay-date {
+    width: 30%;
+}
+
+table.woocommerce-checkout-review-order-table.smallpay-table .product-name.smallpay-installment,
+table.woocommerce-checkout-review-order-table.smallpay-table .product-name.smallpay-date {
+    min-width: 82px;
+}
+
+table.woocommerce-checkout-review-order-table.smallpay-table .product-total.smallpay-amount {
+    width: 30%;
+}
+
+table.woocommerce-checkout-review-order-table.smallpay-table td.product-total.smallpay-amount {
+    white-space: nowrap;
+}
+
+table.woocommerce-checkout-review-order-table.smallpay-table .product-name.smallpay-total {
+    width: 40%;
+    text-align: left;
+    font-weight: bold;
+}
+
+#payment .payment_methods li p.smallpay-select,
+.entry-content p.smallpay-select {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.smallpay-p-size {
+    font-size: 16px;
+}
+
+#order_review .shop_table.smallpay-table {
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+
+#payment .payment_methods li p.smallpay-p-confirm {
+    margin-bottom: 1.5em;
+    font-size: 16px;
+}
+
+.smallpay-card {
+    max-width: 420px;
+}
+
+#smallpay-installments-number-title {
+    display: inline;
+    margin-right: 20px;
+}
+
+.payment-option label img:where([src*="ecommerce.nexi.it"]),
+.payment-option label img:where([src*="klarna"]) {
+    width: 40px;
+    max-height: 20px;
+    transform: scale(1.2);
+    margin-left: 15px;
+}
